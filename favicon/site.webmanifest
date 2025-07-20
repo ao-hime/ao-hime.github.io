@@ -1,0 +1,25 @@
+{
+  "name": "関西百物語〜青姫〜",
+  "short_name": "青姫",
+  "description": "大阪・難波の小さな寺に、百人の王棋（おうぎ）愛好家が集う夜。",
+  "lang": "ja",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#121831",
+  "background_color": "#f6f0e4",
+  "display": "standalone"
+}
