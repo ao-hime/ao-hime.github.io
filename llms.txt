@@ -1,0 +1,105 @@
+# 関西百物語〜青姫〜
+
+> One Hundred Tales of Kansai – The Blue Princess: a book of one hundred first-person kaidan (strange tales), told during a night of Hyakumonogatari Kaidankai (百物語怪談会) in a small temple of Namba, Ōsaka, by the hundred members of an ōgi club (ōgi is a cousin of shōgi played on an 8×8 board). Written by Cyril Veltin, licensed CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/). The French text is the canonical version; the other languages are translations.
+
+Each tale is a short (300–500 words) first-person testimony that stays ambiguous between a rational and a supernatural reading. The tales can be read in any order; read in sequence, they echo one another. Every page of this site is static HTML with semantic markup, a per-page meta description, hreflang alternates and schema.org JSON-LD (Book, Chapter, BreadcrumbList).
+
+- [Home (language selection)](https://kansai.hyakumonogatari.ao.hime.boo/): entry page, in Japanese.
+- [Sitemap](https://kansai.hyakumonogatari.ao.hime.boo/sitemap.xml): every page with its hreflang alternates.
+- [Markdown sources](https://github.com/ao-hime/books): the book's source files, one Markdown file per tale, with YAML front matter (chapter, narrator, district, title).
+
+
+## 日本語 — 関西百物語〜青姫〜
+
+大阪・難波の小さな寺に、百人の王棋（おうぎ）愛好家が集う夜。百物語怪談会で語られる、一人称の怪談百話。
+
+- [関西百物語〜青姫〜](https://kansai.hyakumonogatari.ao.hime.boo/ja/): 大阪・難波の小さな寺に、百人の王棋（おうぎ）愛好家が集う夜。百物語怪談会で語られる、一人称の怪談百話。
+- [前書き](https://kansai.hyakumonogatari.ao.hime.boo/ja/maegaki/): 『関西百物語〜青姫〜』前書き。 大阪の迷路のような街並み――道頓堀のネオンと梅田のガラスの塔のあいだで、日常はときおり細い亀裂をのぞかせる。馴染みがふいに異様へと傾く瞬間。見過ごせないほど不穏な偶然。 数週間まえ、仲間…
+- [序章](https://kansai.hyakumonogatari.ao.hime.boo/ja/josho/): 『関西百物語〜青姫〜』序章。 大阪・難波の小さな寺院に、百人の王棋（おうぎ）愛好家が集まった。彼らは「百物語怪談会」に参加するのだ――それぞれが不思議な話を語り、蝋燭を消していく古い日本の伝統である。 大広間には九十九…
+- [目次](https://kansai.hyakumonogatari.ao.hime.boo/ja/kansai-hyakumonogatari/): 『関西百物語〜青姫〜』の目次：前書き、序章、百物語、終章。
+- [第96話 – 終遊戯](https://kansai.hyakumonogatari.ao.hime.boo/ja/kansai-hyakumonogatari/96/): 語り手：幸子・地区：心斎橋
+- [終章](https://kansai.hyakumonogatari.ao.hime.boo/ja/shusho/): 『関西百物語〜青姫〜』終章。 日曜日の朝、新世界のゲームサロンの店主は、鍵が開いているのを発見した。 店内では、王棋関西協会の会長が奥のテーブルに座っている——数学教授が生前よく遊んでいたあのテーブルだ。 盤上には二十…
+
+## English — One Hundred Tales of Kansai – The Blue Princess
+
+One hundred first-person tales, between kaidan and kōan: a night of Hyakumonogatari Kaidankai in a small temple of Namba, Osaka, among a hundred ōgi players.
+
+- [One Hundred Tales of Kansai – The Blue Princess](https://kansai.hyakumonogatari.ao.hime.boo/en/): One hundred first-person tales, between kaidan and kōan: a night of Hyakumonogatari Kaidankai in a small temple of Namba, Osaka, among a hundred ōgi players.
+- [Preamble](https://kansai.hyakumonogatari.ao.hime.boo/en/preamble/): Preamble of One Hundred Tales of Kansai (The Blue Princess). In the maze of Ōsaka, between the neon signs of Dōtonbori and the glass towers of Umeda, everyday…
+- [Introduction](https://kansai.hyakumonogatari.ao.hime.boo/en/introduction/): Introduction of One Hundred Tales of Kansai (The Blue Princess). In a small temple in Namba, Ōsaka, one hundred ōgi enthusiasts gather for an extraordinary…
+- [Table of Contents](https://kansai.hyakumonogatari.ao.hime.boo/en/one-hundred-tales-of-kansai/): Table of contents of One Hundred Tales of Kansai (The Blue Princess): preamble, introduction, the tales of the night and the conclusion.
+- [Chapter 1 – The Blind Spot](https://kansai.hyakumonogatari.ao.hime.boo/en/one-hundred-tales-of-kansai/1/): Narrator: Kim Soo-jin · District: Tsuruhashi
+- [Chapter 88 – The Enlightened One](https://kansai.hyakumonogatari.ao.hime.boo/en/one-hundred-tales-of-kansai/88/): Narrator: Takeru · District: Namba
+- [Chapter 96 – Still Playing](https://kansai.hyakumonogatari.ao.hime.boo/en/one-hundred-tales-of-kansai/96/): Narrator: Sachiko · District: Shinsaibashi
+- [Conclusion](https://kansai.hyakumonogatari.ao.hime.boo/en/conclusion/): Conclusion of One Hundred Tales of Kansai (The Blue Princess). On Sunday morning, the owner of the Shinsekai game parlor discovers the door unlocked. Inside…
+
+## Français — Cent Histoires de la Région du Kansai – La Princesse Bleue
+
+Cent récits à la première personne, entre kaidan et kōan : une nuit de Hyakumonogatari Kaidankai dans un petit temple de Namba, Ōsaka, parmi cent joueurs d'ōgi.
+
+- [Cent Histoires de la Région du Kansai – La Princesse Bleue](https://kansai.hyakumonogatari.ao.hime.boo/fr/): Cent récits à la première personne, entre kaidan et kōan : une nuit de Hyakumonogatari Kaidankai dans un petit temple de Namba, Ōsaka, parmi cent joueurs d'ōgi.
+- [Préambule](https://kansai.hyakumonogatari.ao.hime.boo/fr/preambule/): Préambule de Cent Histoires de la Région du Kansai (La Princesse Bleue). Ōgi関西 est une petite association d'Ōsaka, discrète et tenace, consacrée à l'ōgi, ce…
+- [Introduction](https://kansai.hyakumonogatari.ao.hime.boo/fr/introduction/): Introduction de Cent Histoires de la Région du Kansai (La Princesse Bleue). Bonsoir à toutes et à tous. Merci d'être là. Ce rendez-vous était prévu depuis le…
+- [Table des matières](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/): Table des matières de Cent Histoires de la Région du Kansai (La Princesse Bleue) : préambule, introduction, les récits de la nuit et la conclusion.
+- [Chapitre 1 – Face à Face](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/1/): Narrateur : Kim Soo-jin · District : Tsuruhashi
+- [Chapitre 2 – Le Bon Coup](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/2/): Narrateur : Jirō · District : Sumiyoshi
+- [Chapitre 3 – L'Homme Transparent](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/3/): Narrateur : Hiroshi · District : Nishinari
+- [Chapitre 4 – Dépêche-toi](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/4/): Narrateur : Mio · District : Hirano
+- [Chapitre 5 – Le Bar du Matin](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/5/): Narrateur : Yamamoto · District : Namba
+- [Chapitre 6 – Au Trois](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/6/): Narrateur : Setsuko · District : Abeno
+- [Chapitre 8 – Trois Cents Éventails](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/8/): Narrateur : Fujimoto · District : Kyōto
+- [Chapitre 9 – La Neuvième Ligne](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/9/): Narrateur : Tetsuya · District : Tennōji
+- [Chapitre 10 – L'Écriture Automatique](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/10/): Narrateur : Takeshi · District : Dōtonbori
+- [Chapitre 13 – Le Papier Plié](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/13/): Narrateur : Kazuo · District : Shinsaibashi
+- [Chapitre 22 – La Pièce Perdue](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/22/): Narrateur : Keiko · District : Sumiyoshi
+- [Chapitre 23 – Au-delà de la Raison](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/23/): Narrateur : Infirmière Sato · District : Shinsekai
+- [Chapitre 33 – La Table](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/33/): Narrateur : Keisuke · District : Shin-Ōsaka
+- [Chapitre 34 – La Dame du Plateau](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/34/): Narrateur : Kaori · District : Ikedachō
+- [Chapitre 36 – Le Mardi Soir](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/36/): Narrateur : Naoko · District : Taisho
+- [Chapitre 38 – La Main Inconnue](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/38/): Narrateur : Mariko · District : Nakanoshima
+- [Chapitre 39 – Le Bon Profil](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/39/): Narrateur : Ayumi · District : Shinsaibashi
+- [Chapitre 42 – L'Égalité Nue](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/42/): Narrateur : Satoshi · District : Nishinari
+- [Chapitre 43 – Le Dix-huitième Coup](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/43/): Narrateur : Haruo · District : Nishinari
+- [Chapitre 45 – Le Sable Blanc](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/45/): Narrateur : Sayuri · District : Namba
+- [Chapitre 47 – Le Masque de Verre](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/47/): Narrateur : Reina · District : Umeda
+- [Chapitre 48 – La Note](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/48/): Narrateur : Nanami · District : Umeda
+- [Chapitre 51 – L'Abstinence](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/51/): Narrateur : Nobuyuki · District : Kitahama
+- [Chapitre 54 – La Simultanée](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/54/): Narrateur : Naoya · District : Temmabashi
+- [Chapitre 55 – Une Partie de Rêve](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/55/): Narrateur : Misaki · District : Kasugayama
+- [Chapitre 65 – La Paix de l'Âme](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/65/): Narrateur : Masato · District : Shinsekai
+- [Chapitre 67 – Témoin Silencieux](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/67/): Narrateur : Akiko · District : Tenjinbashisuji
+- [Chapitre 70 – L'Affranchissement](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/70/): Narrateur : Brâhmane de Tennoji et Madame Ishikawa · District : Tennoji / Shinsekai
+- [Chapitre 71 – Le Revenant](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/71/): Narrateur : Chie · District : Tennoji
+- [Chapitre 74 – Le Goût de la Défaite](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/74/): Narrateur : Yoshiko · District : Tennoji
+- [Chapitre 77 – La Proposition](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/77/): Narrateur : Ryota · District : Tennoji
+- [Chapitre 80 – Pas son Genre](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/80/): Narrateur : Kenta · District : Kyobashi
+- [Chapitre 86 – La Boîte](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/86/): Narrateur : Fumiko · District : Kōbe
+- [Chapitre 88 – L'Illuminé](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/88/): Narrateur : Takeru · District : Namba
+- [Chapitre 91 – Le Même Café](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/91/): Narrateur : Tomoko · District : Tennoji
+- [Chapitre 95 – L'Atelier](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/95/): Narrateur : Taro · District : Nara
+- [Chapitre 96 – Partie pour l'Éternité](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/96/): Narrateur : Sachiko · District : Shinsaibashi
+- [Chapitre 98 – En Marge](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/98/): Narrateur : Mugenjin · District : Inconnu
+- [Chapitre 100 – Service Posthume](https://kansai.hyakumonogatari.ao.hime.boo/fr/cent-histoires-de-la-region-du-kansai/100/): Narrateur : Président de l'association Ōgi関西 et organisateur de la cérémonie · District : Namba
+- [Conclusion](https://kansai.hyakumonogatari.ao.hime.boo/fr/conclusion/): Conclusion de Cent Histoires de la Région du Kansai (La Princesse Bleue). « Vous êtes là depuis la cérémonie d'hier soir ? » demande le propriétaire, inquiet.
+
+## ภาษาไทย — ตำนานร้อยเรื่องแห่งคันไซ – เจ้าหญิงฟ้า
+
+เรื่องเล่าร้อยเรื่องในมุมมองบุคคลที่หนึ่ง ระหว่างไคดังกับโคอัน: ค่ำคืนแห่งเฮียคุโมโนงาตาริไคดังไคในวัดเล็ก ๆ ที่นัมบะ โอซากา ท่ามกลางนักเล่นโองิร้อยคน
+
+- [ตำนานร้อยเรื่องแห่งคันไซ – เจ้าหญิงฟ้า](https://kansai.hyakumonogatari.ao.hime.boo/th/): เรื่องเล่าร้อยเรื่องในมุมมองบุคคลที่หนึ่ง ระหว่างไคดังกับโคอัน: ค่ำคืนแห่งเฮียคุโมโนงาตาริไคดังไคในวัดเล็ก ๆ ที่นัมบะ โอซากา ท่ามกลางนักเล่นโองิร้อยคน
+- [คำนำ](https://kansai.hyakumonogatari.ao.hime.boo/th/khamnam/): คำนำของ ตำนานร้อยเรื่องแห่งคันไซ (เจ้าหญิงฟ้า) ในซอกซอนของโอซากะ ระหว่างป้ายไฟนีออนของโดทงโบริกับตึกกระจกของอุเมดะ ชีวิตประจำวันบางครั้งก็เผยรอยร้าวเล็กๆ…
+- [บทนำ](https://kansai.hyakumonogatari.ao.hime.boo/th/botnam/): บทนำของ ตำนานร้อยเรื่องแห่งคันไซ (เจ้าหญิงฟ้า) ในวัดเล็ก ๆ ย่านนัมบะ เมืองโอซาก้า…
+- [สารบัญ](https://kansai.hyakumonogatari.ao.hime.boo/th/tamnan-roi-rueang-kansai/): สารบัญของ ตำนานร้อยเรื่องแห่งคันไซ (เจ้าหญิงฟ้า): คำนำ บทนำ เรื่องเล่าแห่งราตรี และบทส่งท้าย
+- [บทที่ 42 – ความเท่าเทียมที่เปลือยเปล่า](https://kansai.hyakumonogatari.ao.hime.boo/th/tamnan-roi-rueang-kansai/42/): ผู้เล่าเรื่อง: Satoshi · ย่าน: Nishinari
+- [บทที่ 96 – เกมสุดท้าย](https://kansai.hyakumonogatari.ao.hime.boo/th/tamnan-roi-rueang-kansai/96/): ผู้เล่าเรื่อง: ซาจิโกะ · ย่าน: ชินไซบาชิ
+- [บทส่งท้าย](https://kansai.hyakumonogatari.ao.hime.boo/th/botsongthai/): บทส่งท้ายของ ตำนานร้อยเรื่องแห่งคันไซ (เจ้าหญิงฟ้า) เช้าวันอาทิตย์ เจ้าของร้านเกมที่ชินเซไก พบว่าประตูไม่ได้ล็อค ข้างใน ประธานสมาคมหมากราชาคันไซ…
+
+## 中文 — 关西百物语：青姬
+
+一百个以第一人称讲述的故事，介于怪谈与公案之间：大阪难波一座小寺院里的百物语怪谈会之夜，一百位王棋爱好者齐聚一堂。
+
+- [关西百物语：青姬](https://kansai.hyakumonogatari.ao.hime.boo/zh/): 一百个以第一人称讲述的故事，介于怪谈与公案之间：大阪难波一座小寺院里的百物语怪谈会之夜，一百位王棋爱好者齐聚一堂。
+- [前言](https://kansai.hyakumonogatari.ao.hime.boo/zh/qianyan/): 《关西百物语：青姬》前言。 在大阪的曲折街巷间，在道顿堀的霓虹与梅田的玻璃高楼之间，日常生活有时会露出细微的裂痕。那些让熟悉忽然倾入诡异的瞬间。诡异得让人无法忽视的巧合。 几周前，他们当中的一人死于谁也说不清的情形。佛…
+- [序言](https://kansai.hyakumonogatari.ao.hime.boo/zh/xuyan/): 《关西百物语：青姬》序言。 在大阪难波的一座小寺庙里，一百位王棋爱好者聚集在一起，准备度过一个不同寻常的夜晚。他们将参加百物语怪谈会——一个古老的日本传统，每个人讲述一个奇异的故事后吹灭自己的蜡烛。 九十九支火焰在大殿…
+- [目录](https://kansai.hyakumonogatari.ao.hime.boo/zh/guanxi-baiwuyu/): 《关西百物语：青姬》目录：前言、序言、百个故事与结语。
+- [结语](https://kansai.hyakumonogatari.ao.hime.boo/zh/jieyu/): 《关西百物语：青姬》结语。 周日早晨，新世界游戏室的老板发现门没有上锁。 室内，日本王棋关西协会的会长坐在后面的桌子旁——那是数学教授生前常玩的那张桌子。 棋盘上已经走了二十四步。 “您从昨晚的仪式就一直在这里吗？”老…

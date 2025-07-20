@@ -1,0 +1,539 @@
+@charset "UTF-8";
+
+/* ============================================
+   Theme Variables - Light Mode
+   ============================================ */
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-text: #01579B;
+    --color-text-emphasis: #0277BD;
+    --color-text-muted: #0288D1;
+    --color-text-dialogue: #0277BD;
+
+    --color-link: #01579B;
+    --color-link-hover: #0277BD;
+
+    --color-bg-page: #E3F2FD;
+    --color-bg-header: #64B5F6;
+    --color-bg-section-header: #E1F5FE;
+    --color-bg-section-footer: #F5FBFF;
+    --color-bg-nav: #FFFFFF;
+    --color-bg-quote: #F1F8FE;
+    --color-bg-quote-alt: #FAFCFE;
+
+    --color-border: #0277BD;
+  }
+}
+
+/* ============================================
+   Theme Variables - Dark Mode
+   ============================================ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #B3E5FC;
+    --color-text-emphasis: #4FC3F7;
+    --color-text-muted: #81D4FA;
+    --color-text-dialogue: #81D4FA;
+
+    --color-link: #81D4FA;
+    --color-link-hover: #E1F5FE;
+
+    --color-bg-page: #0A1929;
+    --color-bg-header: #1A3A52;
+    --color-bg-section-header: #0D1E2F;
+    --color-bg-section-footer: #030609;
+    --color-bg-nav: #000000;
+    --color-bg-quote: #0D1E2F;
+    --color-bg-quote-alt: #020406;
+
+    --color-border: #4FC3F7;
+  }
+}
+
+/* ============================================
+   Layout Variables
+   ============================================ */
+@media (orientation: landscape) {
+  :root {
+    --viewport-size: 100vh;
+  }
+}
+
+@media (orientation: portrait) {
+  :root {
+    --viewport-size: 100vw;
+  }
+}
+
+:root {
+  /* Typography Families */
+  --font-body: "Charter", "Iowan Old Style", Georgia, Cambria, "Times New Roman", serif;
+  --font-ui: system-ui, -apple-system, sans-serif;
+  --font-dialogue: "Optima", "Palatino", "Book Antiqua", Palatino, serif;
+  --font-quote: Georgia, Garamond, "Times New Roman", serif;
+
+  /* Type Scale */
+  --text-xl: calc(var(--viewport-size) / 12);
+  --text-lg: calc(var(--viewport-size) / 15);
+  --text-md: calc(var(--viewport-size) / 18);
+  --text-base: calc(var(--viewport-size) / 21);
+  --text-sm: calc(var(--viewport-size) / 24);
+  --text-xs: calc(var(--viewport-size) / 28);
+
+  /* Spacing */
+  --space-lg: calc(var(--viewport-size) / 20);
+  --space-md: calc(var(--viewport-size) / 40);
+
+  /* Borders */
+  --border-thin: max(0.0625rem, calc(var(--viewport-size) / 400));
+  --border-thick: max(0.125rem, calc(var(--viewport-size) / 200));
+
+  /* Line Heights */
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+}
+
+/* ============================================
+   Reset and Base
+   ============================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: calc(var(--viewport-size) * 4);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  background-color: var(--color-bg-page);
+  color: var(--color-text);
+}
+
+/* ============================================
+   Site Header (book title + subtitle)
+   ============================================ */
+body > header {
+  padding: var(--space-lg);
+  background-color: var(--color-bg-header);
+}
+
+body > header > :first-child {
+  margin: var(--space-md) 0;
+  font-size: var(--text-xl);
+  font-weight: bold;
+  line-height: var(--leading-tight);
+}
+
+body > header > :last-child {
+  margin: var(--space-md) 0;
+  font-size: var(--text-lg);
+  font-weight: bold;
+  line-height: var(--leading-tight);
+}
+
+body > header a {
+  color: inherit;
+  border-block-end-color: transparent;
+}
+
+body > header a:hover {
+  color: var(--color-text-emphasis);
+  border-block-end-color: currentColor;
+}
+
+/* Header Icon */
+body > header > :last-child::before {
+  content: "";
+  display: inline-block;
+  width: var(--text-lg);
+  height: var(--text-lg);
+  margin-inline-end: var(--space-md);
+  vertical-align: middle;
+  background-color: var(--color-text);
+  mask-image: url('/favicon/favicon.svg');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+/* ============================================
+   Main Structure
+   ============================================ */
+body > main {
+  margin: 0;
+  padding: 0;
+}
+
+body > main > article {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  line-height: var(--leading-relaxed);
+}
+
+/* Every direct child of the article is inset, except the full-bleed
+   stage-direction bands (header/footer). */
+body > main > article > * {
+  margin-inline: var(--space-lg);
+}
+
+body > main > article > h1 {
+  margin-block: var(--space-lg) 0;
+  font-family: var(--font-ui);
+  font-size: var(--text-md);
+  line-height: var(--leading-tight);
+}
+
+body > main > article > header,
+body > main > article > footer {
+  margin-inline: 0;
+  padding: var(--space-lg);
+  font-family: var(--font-ui);
+  line-height: var(--leading-normal);
+}
+
+body > main > article > header {
+  background-color: var(--color-bg-section-header);
+}
+
+body > main > article > footer {
+  margin-block-start: var(--space-lg);
+  background-color: var(--color-bg-section-footer);
+}
+
+body > main > article > header + * {
+  margin-block-start: var(--space-lg);
+}
+
+body > main > article > :last-child:not(footer) {
+  margin-block-end: var(--space-lg);
+}
+
+body > main > article h2 {
+  margin: var(--space-md) 0;
+  font-family: var(--font-ui);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+}
+
+/* Home page: language selection */
+body > main > nav {
+  margin: var(--space-lg);
+}
+
+body > main > nav h2 {
+  margin: var(--space-md) 0;
+  font-size: var(--text-md);
+  line-height: var(--leading-tight);
+}
+
+/* ============================================
+   Typography
+   ============================================ */
+p,
+li {
+  font-size: var(--text-sm);
+}
+
+p,
+ol,
+ul {
+  margin: var(--space-md) 0;
+}
+
+small {
+  font-size: var(--text-xs);
+  opacity: 0.7;
+}
+
+em {
+  color: var(--color-text-emphasis);
+  font-style: italic;
+}
+
+/* ============================================
+   Lists
+   ============================================ */
+dd,
+ol,
+ul {
+  padding-inline-start: var(--space-lg);
+}
+
+dt,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Table of contents: tales are numbered by their chapter number
+   (li[value]); the number is already part of the link text. */
+body > main > article ol:has(> li[value]) {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+body > main > article ol:has(> li[value]) > li {
+  margin-block: var(--space-md);
+}
+
+/* ============================================
+   Links
+   ============================================ */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  border-block-end: var(--border-thin) solid transparent;
+  transition: color 0.2s ease, border-block-end-color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  border-block-end-color: var(--color-link-hover);
+}
+
+a:focus-visible {
+  outline: var(--border-thick) solid var(--color-link-hover);
+  outline-offset: calc(var(--space-md) / 4);
+  border-block-end-color: transparent;
+}
+
+/* ============================================
+   Book Navigation (previous / contents / next)
+   ============================================ */
+body > nav {
+  padding: var(--space-lg);
+  background-color: var(--color-bg-nav);
+  clear: both;
+}
+
+body > nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-md);
+}
+
+body > nav li {
+  flex: 1 1 0;
+  text-align: center;
+}
+
+body > nav li:has(a[rel="prev"]) {
+  text-align: start;
+}
+
+body > nav li:has(a[rel="next"]) {
+  text-align: end;
+}
+
+/* Label and arrow on one line, destination title on the next. */
+body > nav a {
+  display: inline-flex;
+  flex-wrap: wrap;
+  column-gap: 0.3em;
+  border-block-end-color: transparent;
+}
+
+body > nav li:has(a[rel="next"]) a {
+  justify-content: flex-end;
+}
+
+body > nav a small {
+  flex-basis: 100%;
+  order: 1;
+}
+
+body > nav a[rel="prev"]::before {
+  content: "←";
+}
+
+body > nav a[rel="next"]::after {
+  content: "→";
+}
+
+/* ============================================
+   Site Footer (other languages, license)
+   ============================================ */
+body > footer {
+  padding: var(--space-lg);
+  background-color: var(--color-bg-nav);
+  font-size: var(--text-xs);
+}
+
+body > footer nav ul {
+  list-style: none;
+  margin: 0 0 var(--space-md) 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+body > footer li,
+body > footer p {
+  margin: 0;
+  font-size: var(--text-xs);
+}
+
+body > footer small {
+  font-size: inherit;
+}
+
+/* ============================================
+   Rich Content
+   ============================================ */
+blockquote {
+  margin: var(--space-md) 0;
+  padding: var(--space-md);
+  border-inline-start: var(--border-thick) solid var(--color-border);
+  background-color: var(--color-bg-quote);
+  font-family: var(--font-quote);
+  font-size: var(--text-sm);
+  font-weight: lighter;
+  line-height: var(--leading-relaxed);
+}
+
+body > main > article > header > blockquote,
+body > main > article > footer > blockquote {
+  background-color: var(--color-bg-quote-alt);
+}
+
+q {
+  font-family: var(--font-dialogue);
+  font-size: var(--text-sm);
+  color: var(--color-text-dialogue);
+  font-style: normal;
+  line-height: var(--leading-relaxed);
+}
+
+/* Language-Specific Quotes */
+:lang(fr) q::before {
+  content: "« ";
+  margin-inline-end: 0.1em;
+}
+
+:lang(fr) q::after {
+  content: " »";
+  margin-inline-start: 0.1em;
+}
+
+:lang(fr) q q::before {
+  content: "‹ ";
+}
+
+:lang(fr) q q::after {
+  content: " ›";
+}
+
+:lang(en) q::before,
+:lang(th) q::before {
+  content: "\201C";
+}
+
+:lang(en) q::after,
+:lang(th) q::after {
+  content: "\201D";
+}
+
+:lang(en) q q::before {
+  content: "\2018";
+}
+
+:lang(en) q q::after {
+  content: "\2019";
+}
+
+:lang(zh) q::before,
+:lang(ja) q::before {
+  content: "「";
+}
+
+:lang(zh) q::after,
+:lang(ja) q::after {
+  content: "」";
+}
+
+:lang(zh) q q::before,
+:lang(ja) q q::before {
+  content: "『";
+}
+
+:lang(zh) q q::after,
+:lang(ja) q q::after {
+  content: "』";
+}
+
+/* ============================================
+   Images
+   ============================================ */
+img {
+  max-width: 100%;
+  max-height: calc(var(--viewport-size) * 2);
+  width: auto;
+  height: auto;
+  display: block;
+  margin: var(--space-md) 0;
+}
+
+/* ============================================
+   Sections
+   ============================================ */
+section {
+  margin-block: var(--space-lg);
+}
+
+/* ============================================
+   Animation Preferences
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+@media print {
+  :root {
+    --color-bg-page: white;
+    --color-bg-header: white;
+    --color-bg-section-header: white;
+    --color-bg-section-footer: white;
+    --color-bg-nav: white;
+    --color-text: black;
+    --color-link: black;
+  }
+
+  body > header,
+  body > nav,
+  body > footer nav {
+    display: none;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.875em;
+  }
+
+  a[href^="#"]::after {
+    content: "";
+  }
+}
