@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 224">
+  <title>Lampion bleu</title>
+  <style>
+    .ink { fill: #1d1b24; stroke: #1d1b24; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #0a0d18; stroke: #a3bbff; }
+    }
+  </style>
+  <defs>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#8fb0ff" stop-opacity=".5"/>
+      <stop offset=".55" stop-color="#8fb0ff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#8fb0ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paper" cx=".5" cy=".55" r=".62">
+      <stop offset="0" stop-color="#f1f6ff"/>
+      <stop offset=".38" stop-color="#9dbaff"/>
+      <stop offset=".78" stop-color="#4263c4"/>
+      <stop offset="1" stop-color="#27408b"/>
+    </radialGradient>
+    <clipPath id="body">
+      <path d="M58 52C20 63 20 173 58 184h44c38-11 38-121 0-132z"/>
+    </clipPath>
+  </defs>
+  <circle cx="80" cy="118" r="80" fill="url(#halo)"/>
+  <path class="ink" d="M80 6v34" fill="none" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M58 52C20 63 20 173 58 184h44c38-11 38-121 0-132z" fill="url(#paper)"/>
+  <g clip-path="url(#body)" fill="none" stroke="#1f3478" stroke-opacity=".5" stroke-width="1.5">
+    <path d="M20 70q60 9 120 0"/>
+    <path d="M20 86q60 10 120 0"/>
+    <path d="M20 102q60 11 120 0"/>
+    <path d="M20 118q60 11 120 0"/>
+    <path d="M20 134q60 11 120 0"/>
+    <path d="M20 150q60 10 120 0"/>
+    <path d="M20 166q60 9 120 0"/>
+  </g>
+  <rect class="ink" x="56" y="40" width="48" height="13" rx="3.5" stroke-width="1"/>
+  <rect class="ink" x="56" y="183" width="48" height="12" rx="3.5" stroke-width="1"/>
+  <path class="ink" d="M80 195v12m-5 0h10m-8 0v10m3-10v12m3-12v9" fill="none" stroke-width="1.8" stroke-linecap="round"/></svg>
