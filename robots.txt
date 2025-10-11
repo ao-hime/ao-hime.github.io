@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://kansai.hyakumonogatari.ao.hime.boo/sitemap.xml
+
+# Optional: Block access to specific files/directories if needed
+# Disallow: /.git/
+
+# Crawl-delay (optional, in seconds)
+# Crawl-delay: 1
